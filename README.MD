@@ -23,3 +23,9 @@ Instale as dependências necessárias executando:
 
 ```bash
 pip install openai PyPDF2 python-docx
+```
+precisa rodar o script em uma pasta que contenha um modelo em docx e o/os relatórios em pdf 
+
+## Uso
+
+python auto_report.py
