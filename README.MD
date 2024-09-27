@@ -1,7 +1,7 @@
 # Gerador de Relatórios Executivos a partir de PDFs de Postura de Segurança
 
 Este repositório contém um script Python que processa arquivos PDF de postura de segurança, utiliza a API da OpenAI para gerar um relatório executivo e salva o resultado em um arquivo `.docx` usando um modelo pré-definido.
-
+- possui outros scritps utilitarios voltados para PDFs e DOCx
 ## Funcionalidades
 
 - Extrai texto de relatórios PDF.
