@@ -65,7 +65,7 @@ def gerar_relatorio_executivo(cliente, texto, max_tokens=200000):
     ]
     #model="gpt-3.5-turbo"
     #model="gpt-4o-mini" vai ter que ser usado por motivos de rate limit
-    #USE MODEL "gpt-4o" if you have tier 2+, you will generate a greater report
+    #USE O MODELO "gpt-4o" SE VC TIVER tier 2+, O CONTEUDO DO RELATORIO VAI SER MELHOR
     response = client.chat.completions.create(
         model="gpt-4o-mini",
         messages=mensagens,
